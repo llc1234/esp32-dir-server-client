@@ -20,7 +20,7 @@ class DirServer {
     
         int re = http.GET();
 
-        if (re) {
+        if (re > 0) {
           return http.getString();
         }
     
@@ -39,7 +39,7 @@ class DirServer {
     
         int re = http.GET();
 
-        if (re) {
+        if (re > 0) {
           return http.getString();
         }
     
