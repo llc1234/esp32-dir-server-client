@@ -2,8 +2,8 @@
 #include <HTTPClient.h>
 
 
-const char* ssid = "Dina2G";
-const char* password = "janneerkul";
+const char* ssid = "";
+const char* password = "";
 
 
 class DirServer {
